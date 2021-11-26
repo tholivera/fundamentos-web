@@ -21,10 +21,10 @@ email.style.width = "100%"
 function validaNome() {
     let txtNome = document.querySelector("#txtNome")
     if (nome.value.length < 3) {
-        txtNome.innerHTML = "NOME INVÁLIDO"
+        txtNome.innerHTML = "Nome inválido"
         txtNome.style.color = "red"
     } else {
-        txtNome.innerHTML = "NOME VÁLIDO"
+        txtNome.innerHTML = "Nome válido"
         txtNome.style.color = "green"
         nomeOk = true
     }
